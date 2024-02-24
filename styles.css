@@ -1,0 +1,140 @@
+@font-face {
+    font-family: clockFont;
+    src: url(digital-7.ttf);
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+
+body {
+    
+    background-image: url(image/nasa-Q1p7bh3SHj8-unsplash.jpg);
+    background-size:cover;
+   
+ 
+    color:black;
+    
+}
+
+.para-title {
+   
+    
+    position:absolute;
+    top:30%;
+    left:4%;
+}
+
+
+
+
+
+.hero {
+    width:100%;
+    min-height:100vh;
+    position:relative;
+}
+
+.container {
+    
+    
+    width:800px;
+    height:100px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+  
+
+
+    
+}
+
+.clock {
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+    backdrop-filter: blur(12px);
+    
+}
+
+
+.clock span {
+    font-size:70px;
+    width:100px;
+    display:inline-block;
+    text-align:center;
+    position:relative;
+    color: white;
+    font-family:clockFont;
+    letter-spacing:8px;
+    text-shadow: 0 0 20px #E8AC64;
+    font-weight:700;
+    
+}
+
+.clock span::after {
+    content:'';
+    font-size:13px;
+    position:absolute;
+    bottom: -5px;
+    left:50%;
+    transform:translateX(-50%);
+    text-shadow: 0 0 2px white;
+}
+
+
+#hrs::after {
+    content:"HOURS";
+    
+}
+
+#mnts::after {
+    content:"MINUTES";
+}
+
+
+#scnds::after {
+    content: "SECONDS";
+}
+
+h1 {
+    color:white;
+    font-size:80px;
+    font-family:clockFont;
+    letter-spacing:5px;
+    white-space: nowrap;
+    overflow:hidden;
+    text-shadow: 0 0 10px #E8AC64;
+    
+    
+    
+    
+}
+
+
+.container2 {
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    
+}
+
+.container h1 {
+ 
+    width:100%;
+    height:100%;
+    position:relative;
+    text-align:center;
+    
+  
+}
+
+
