@@ -71,7 +71,7 @@ body {
     color: white;
     font-family:clockFont;
     letter-spacing:8px;
-    text-shadow: 0 0 20px #E8AC64;
+    text-shadow: 0 0 22px #E8AC64;
     font-weight:700;
     
     
@@ -90,6 +90,7 @@ body {
 
 #hrs::after {
     content:"HOURS";
+    
     
 }
 
@@ -112,7 +113,7 @@ h1 {
     top:30%;
     left:50%;
     transform:translate(-50%, -50%);
-    text-shadow: 0 0 10px #E8AC64;
+    text-shadow: 0 0 14px #E8AC64;
     
     
     
