@@ -63,7 +63,7 @@ body {
 
 
 .clock span {
-    font-size:60px;
+    font-size:65px;
     width:100px;
     display:inline-block;
     text-align:center;
@@ -73,6 +73,7 @@ body {
     letter-spacing:8px;
     text-shadow: 0 0 20px #E8AC64;
     font-weight:700;
+    
     
 }
 
