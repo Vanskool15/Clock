@@ -81,7 +81,7 @@ body {
     content:'';
     font-size:10px;
     position:absolute;
-    bottom: -20px;
+    bottom: -22px;
     left:50%;
     transform:translateX(-50% );
     text-shadow: 0 0 2px white;
