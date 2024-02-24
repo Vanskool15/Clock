@@ -37,7 +37,7 @@ body {
 .container {
     
     
-    width:800px;
+    width:400px;
     height:120px;
     position:absolute;
     top:50%;
@@ -57,9 +57,10 @@ body {
     align-items:center;
     justify-content:center;
     
-    backdrop-filter: blur(12px);
+   
     
 }
+
 
 
 .clock span {
@@ -69,8 +70,9 @@ body {
     text-align:center;
     position:relative;
     color: white;
+   letter-spacing: 5px;
+ 
     font-family:clockFont;
-    letter-spacing:8px;
     text-shadow: 0 0 22px #E8AC64;
     font-weight:700;
     
@@ -79,9 +81,9 @@ body {
 
 .clock span::after {
     content:'';
-    font-size:15px;
+    font-size:10px;
     position:absolute;
-    bottom: -25px;
+    bottom: -20px;
     left:50%;
     transform:translateX(-50% );
     text-shadow: 0 0 2px white;
