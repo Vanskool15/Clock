@@ -16,7 +16,7 @@ body {
     width:100%;
     height:100vh;
     background-image: url(image/nasa.jpg);
-    background-size:100% auto;
+    background-size:100% 100%;
     background-repeat:no-repeat;
     
     
