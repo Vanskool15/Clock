@@ -80,9 +80,9 @@ body {
     content:'';
     font-size:10px;
     position:absolute;
-    bottom: -5px;
+    bottom: -15px;
     left:50%;
-    transform:translateX(-50%);
+    transform:translateX(-50% );
     text-shadow: 0 0 2px white;
 }
 
