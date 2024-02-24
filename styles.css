@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: clockFont;
     src: url(digital-7.ttf);
@@ -15,7 +16,8 @@ body {
     background-image: url(image/nasa.jpg);
     background-size:cover;
     background-repeat:no-repeat;
-    object-fit: cover;
+    
+    
    
  
     color:black;
