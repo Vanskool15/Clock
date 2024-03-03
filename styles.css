@@ -20,7 +20,7 @@ body {
     
    
  
-    color:black;
+  
     
 }
 
@@ -123,7 +123,26 @@ h1 {
     
 }
 
+.slash {
+    font-size:30px;
+    color:white;
+    
+}
 
+#month, #day, #year {
+    color:white;
+    font-size:30px;
+    font-family: clockFont;
+    letter-spacing: 5px;
+    font-weight:bold;
+    text-shadow: 0 0 14px #E8AC64;
+   
+    
+}
 
-
-
+.container2 {
+    position:absolute;
+    bottom:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}

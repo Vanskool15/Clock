@@ -24,4 +24,24 @@ function startTime() {
   document.getElementById('scnds').innerHTML = seconds;
   document.getElementById('am-pm').innerHTML = session;
   setTimeout(startTime,1000);
+
+  
+ 
 }
+
+function dateMonth() {
+  const d = new Date();
+  let year = d.getFullYear();
+  let month = d.getMonth();
+  let day = d.getDate();
+
+
+
+
+
+document.getElementById('month').innerHTML +=  month + 1;
+document.getElementById('day').innerHTML += day;
+document.getElementById('year').innerHTML = year;
+}
+
+dateMonth();
