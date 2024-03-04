@@ -1,3 +1,6 @@
+const weekDay = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+
 function startTime() {
   const today = new Date ();
   let hours = today.getHours();
@@ -33,15 +36,17 @@ function dateMonth() {
   const d = new Date();
   let year = d.getFullYear();
   let month = d.getMonth();
-  let day = d.getDate();
+  let date = d.getDate();
+  let day = weekDay [d.getDay()];
 
 
 
 
 
 document.getElementById('month').innerHTML +=  month + 1;
-document.getElementById('day').innerHTML += day;
+document.getElementById('date').innerHTML += date;
 document.getElementById('year').innerHTML = year;
+document.getElementById('day').innerHTML = day;
 }
 
 dateMonth();
