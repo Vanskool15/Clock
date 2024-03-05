@@ -66,8 +66,8 @@ body {
 
 
 .clock span {
-    font-size:40px;
-    width:38px;
+    font-size:50px;
+    width:45px;
     display:inline-block;
     text-align:center;
     position:relative;
@@ -81,31 +81,10 @@ body {
     
 }
 
-.clock span::after {
-    content:'';
-    font-size:10px;
-    position:absolute;
-    bottom: -20px;
-    left:50%;
-    transform:translateX(-50% );
-    text-shadow: 0 0 2px white;
-}
 
 
-#hrs::after {
-    content:"HOURS";
-    
-    
-}
-
-#mnts::after {
-    content:"MINUTES";
-}
 
 
-#scnds::after {
-    content: "SECONDS";
-}
 
 h1 {
     color:white;
@@ -193,5 +172,9 @@ h1 {
     font-weight:bold;
     color:white;
     
+}
+
+#am-pm {
+    margin-left:10px;
 }
 
