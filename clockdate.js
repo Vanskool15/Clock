@@ -1,6 +1,6 @@
 const weekDay = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-
+//Display Local Time
 function startTime() {
   const today = new Date ();
   let hours = today.getHours();
@@ -31,7 +31,7 @@ function startTime() {
   
  
 }
-
+//Display Date-Month-Year
 function dateMonth() {
   const d = new Date();
   let year = d.getFullYear();
