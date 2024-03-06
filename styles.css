@@ -11,7 +11,7 @@
 
 body {
 
-
+    
     background-image: url(image/nasa.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -67,12 +67,12 @@ body {
     display: inline-block;
     text-align: center;
     position: relative;
-    color: white;
+    color: black;
     letter-spacing: 5px;
     margin-right: 8px;
     font-family: clockFont;
     text-shadow: 0 0 22px #E8AC64;
-    font-weight: 700;
+    font-weight:bold;
 
 
 }
@@ -83,7 +83,7 @@ body {
 
 
 .title {
-    color: white;
+    color: black;
     font-size: 8vw;
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 5px;
@@ -105,7 +105,7 @@ body {
 #month,
 #date,
 #year {
-    color: white;
+    color: black;
     font-size: 28px;
     font-family: clockFont;
     font-weight: bold;
@@ -147,7 +147,7 @@ body {
 #day {
 
     font-size: 45px;
-    color: white;
+    color: black;
     text-shadow: 0 0 14px #E8AC64;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
@@ -162,6 +162,7 @@ body {
     display: flex;
     align-items: end;
     justify-content: center;
+    
 
 
 }
@@ -173,7 +174,7 @@ body {
 }
 
 h1 {
-    color: white;
+    color: black;
     font-family: "Irish Grover", system-ui;
     text-shadow: 0 0 14px #E8AC64;
     font-size: 5vw;
