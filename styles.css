@@ -1,175 +1,184 @@
-
 @font-face {
     font-family: clockFont;
     src: url(digital-7.ttf);
 }
 
 * {
-    margin:0;
-    padding:0;
-    box-sizing:border-box
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    
+
 
     background-image: url(image/nasa.jpg);
-    background-size:cover;
-    background-repeat:no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position:center;
-    
-    
-   
- 
-  
-    
+    background-position: center;
+    overflow: hidden;
+
+
+
+
+
+
 }
 
 
 
 
 
-.hero {
-    width:100%;
-    min-height:100vh;
-    position:relative;
-}
+
 
 .container {
-    
-    
-    width:400px;
-    height:120px;
-    position:absolute;
-    top:50%;
-    left:50%;
+
+
+    width: 400px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    
-  
 
 
-    
+
+
+
 }
 
 .clock {
-    width:100%;
-    height:100%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    
-   
-    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
 }
 
 
 
 .clock span {
-    font-size:50px;
-    width:45px;
-    display:inline-block;
-    text-align:center;
-    position:relative;
+    font-size: 50px;
+    width: 45px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
     color: white;
     letter-spacing: 5px;
-    margin-right:8px;
-    font-family:clockFont;
-    text-shadow: 0 0 22px #E8AC64;
-    font-weight:700;
-    
-    
-}
-
-
-
-
-
-
-h1 {
-    color:white;
-    font-size:8vw;
-    font-family:'Times New Roman', Times, serif;
-    letter-spacing:5px;
-    white-space: nowrap;
-    position:absolute;
-    top:30%;
-    left:50%;
-    transform:translate(-50%, -50%);
-    text-shadow: 0 0 14px #E8AC64;
-    
-    
-    
-    
-    
-}
-
-
-#month, #date, #year {
-    color:white;
-    font-size:28px;
+    margin-right: 8px;
     font-family: clockFont;
-    font-weight:bold;
-    text-shadow: 0 0 20px #E8AC64;
-    margin-right:8px;
+    text-shadow: 0 0 22px #E8AC64;
+    font-weight: 700;
 
-   
-    
+
+}
+
+
+
+
+
+
+.title {
+    color: white;
+    font-size: 8vw;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    white-space: nowrap;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 14px #E8AC64;
+    margin-top: 0;
+
+
+
+
+
+}
+
+
+#month,
+#date,
+#year {
+    color: white;
+    font-size: 28px;
+    font-family: clockFont;
+    font-weight: bold;
+    text-shadow: 0 0 20px #E8AC64;
+    margin-right: 8px;
+
+
+
 }
 
 #month {
-    margin-left:15px;
-    
+    margin-left: 15px;
+
 }
 
 #year {
-    margin-left:15px;
+    margin-left: 15px;
 }
 
 .container3 {
-    
-    position:absolute;
-    bottom:30%;
-    left:50%;
+
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
 
 .container2 {
     position: absolute;
-    top:75%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
-    
-    
+
+
+
 }
 
 #day {
-    
-    font-size:45px;
-    color:white;
+
+    font-size: 45px;
+    color: white;
     text-shadow: 0 0 14px #E8AC64;
-    font-weight:bold;
-    font-family:'Times New Roman', Times, serif;
-    
-    
-    
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+
+
 }
 
 .date-month-year {
-    width:100%;
-    height:100%;
-    display:flex;
+    width: 100%;
+    height: 100%;
+    display: flex;
     align-items: end;
-    justify-content:center;
-    
-    
+    justify-content: center;
+
+
 }
 
 
 
 #am-pm {
-    margin-left:10px;
+    margin-left: 10px;
+}
+
+h1 {
+    color: white;
+    font-family: "Irish Grover", system-ui;
+    text-shadow: 0 0 14px #E8AC64;
+    font-size: 5vw;
+    margin: 20px;
+    letter-spacing: 2px;
+
 }
 
