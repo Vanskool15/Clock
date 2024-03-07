@@ -71,7 +71,7 @@ body {
     letter-spacing: 5px;
     margin-right: 8px;
     font-family: clockFont;
-    text-shadow: 0 0 22px #E8AC64;
+    text-shadow: 0 0 4px white;
     font-weight:bold;
 
 
@@ -92,7 +92,7 @@ body {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: 0 0 14px #E8AC64;
+    text-shadow: 0 0 14px white;
     margin-top: 0;
 
 
@@ -106,10 +106,10 @@ body {
 #date,
 #year {
     color: black;
-    font-size: 28px;
+    font-size: 30px;
     font-family: clockFont;
     font-weight: bold;
-    text-shadow: 0 0 20px #E8AC64;
+    text-shadow: 0 0 4px white;
     margin-right: 8px;
 
 
@@ -146,9 +146,9 @@ body {
 
 #day {
 
-    font-size: 45px;
+    font-size: 55px;
     color: black;
-    text-shadow: 0 0 14px #E8AC64;
+    text-shadow: 0 0 10px white;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 
@@ -176,7 +176,7 @@ body {
 h1 {
     color: black;
     font-family: "Irish Grover", system-ui;
-    text-shadow: 0 0 14px #E8AC64;
+    text-shadow: 0 0 14px white;
     font-size: 5vw;
     margin: 20px;
     letter-spacing: 2px;
