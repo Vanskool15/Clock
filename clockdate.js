@@ -1,5 +1,6 @@
 const weekDay = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
+
 //Display Local Time
 function startTime() {
   const today = new Date ();
@@ -35,18 +36,22 @@ function startTime() {
 function dateMonth() {
   const d = new Date();
   let year = d.getFullYear();
-  let month = d.getMonth();
+  let month = d.getMonth() + 1;
   let date = d.getDate();
   let day = weekDay [d.getDay()];
 
+month = month.toString().padStart(2, '0');
+date = date.toString().padStart(2, '0');
 
 
-
-
-document.getElementById('month').innerHTML +=  month + 1;
-document.getElementById('date').innerHTML += date;
+document.getElementById('month').innerHTML =  month;
+document.getElementById('date').innerHTML = date;
 document.getElementById('year').innerHTML = year;
 document.getElementById('day').innerHTML = day;
+
+
 }
 
 dateMonth();
+
+
