@@ -85,7 +85,8 @@ body {
 .title {
     color: white;
     font-size: 8vw;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Orbitron;
+    font-weight:400;
     letter-spacing: 5px;
     white-space: nowrap;
     position: absolute;
@@ -146,11 +147,11 @@ body {
 
 #day {
 
-    font-size: 55px;
+    font-size: 40px;
     color: white;
     text-shadow: 0 0 10px #DB9B59;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+    font-weight:400;
+    font-family: Orbitron;
 
 
 
@@ -175,9 +176,9 @@ body {
 
 h1 {
     color: white;
-    font-family: "Irish Grover", system-ui;
+    font-family: Orbitron;
     text-shadow: 0 0 14px #DB9B59;
-    font-size: 5vw;
+    font-size: 4vw;
     margin: 20px;
     letter-spacing: 2px;
 
