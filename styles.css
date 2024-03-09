@@ -176,13 +176,9 @@ body {
     margin-left: 10px;
 }
 
-h1 {
-    color: #0077b6;
-    font-family: Orbitron;
-   text-shadow: 0 0 10px black;
-    font-size: 4vw;
-    margin: 20px;
-    letter-spacing: 2px;
 
+
+.logo {
+    width:9vw;
+    margin: 5px 0 0 20px;
 }
-
