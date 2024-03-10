@@ -10,73 +10,81 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="styles.css">
+
     <title>Time</title>
-    
-</head>
 
-<body onload="startTime()">
+    </head>
 
-    <div class="logo-container">
-        <div class="container5">
-            <img class="logo" src="image/Group 1.png">
+    <body onload="startTime()">
+
+        <div class="logo-container">
+            <div class="container5">
+                <img class="logo" src="image/Group 1.png">
+            </div>
+
         </div>
-        
-    </div>
-    
 
-   
+
+
 
         <h1 class="title">P.S.T Time</h1>
-    
-    
-    
-    
+
+
+
+
         <!--Display Clock -->
-       
-            <div class="container">
-                <div class="clock">
-                    <span id="hrs">00</span>
-                    <span>:</span>
-                    <span id="mnts">00</span>
-                    <span>:</span>
-                    <span id="scnds">00</span>
-                    <span id="am-pm"></span>
-        
-                </div>
+
+        <div class="container">
+            <div class="clock">
+                <span id="hrs">00</span>
+                <span>:</span>
+                <span id="mnts">00</span>
+                <span>:</span>
+                <span id="scnds">00</span>
+                <span id="am-pm"></span>
+
             </div>
-      
-      
-    
+        </div>
+
+
+
         <!--Display month-date-year -->
-        
-            <div class="container2">
-                <div class="date-month-year">
-                    
-                    <span id="date"></span>
-        
-                    <span id="month"></span>
-        
-                    <span id="year"></span>
-                </div>
-        
+
+        <div class="container2">
+            <div class="date-month-year">
+
+                <span id="date"></span>
+
+                <span id="month"></span>
+
+                <span id="year"></span>
             </div>
-       
-        
+
+        </div>
+
+
         <!--Display Weekdays -->
         <div class="container3">
-            <span id="day"></span>       
+            <span id="day"></span>
         </div>
-    
-    
-
-   
 
 
 
-    <script src="clockdate.js"></script>
 
 
-</body>
+
+
+        <script src="clockdate.js"></script>
+
+
+    </body>
 
 </html>
