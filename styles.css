@@ -65,8 +65,14 @@ body {
     text-shadow: 0 0 10px #DB9B59;
     font-weight:bold;
     margin:4px;
-   
+    transition:3s;
 
+}
+
+
+.clock span:hover {
+    color:#0077b6;
+    cursor:pointer;
 }
 
 
