@@ -22,6 +22,7 @@ function startTime() {
   minutes = (minutes < 10) ? "0" + minutes : minutes;
   seconds = (seconds < 10) ? "0" + seconds : seconds;
   
+
  
   document.getElementById('hrs').innerHTML = hours ;
   document.getElementById('mnts').innerHTML = minutes;
@@ -41,8 +42,8 @@ function dateMonth() {
   let day = weekDay [d.getDay()];
 
 //Convert  date & month to string
-month = month.toString().padStart(2, '0');
-date = date.toString().padStart(2, '0');
+month = month.toString().padStart(2, '0 ');
+date = date.toString().padStart(2, '0 ');
 
 
 document.getElementById('month').innerHTML =  month ;
