@@ -3,11 +3,7 @@
     src: url(digital-7.ttf);
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 body {
 
@@ -68,7 +64,7 @@ body {
     font-family: clockFont;
     text-shadow: 0 0 10px #DB9B59;
     font-weight:bold;
-
+   
 
 }
 
@@ -90,6 +86,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: 0 0 8px black;
+ 
 
 
 
@@ -187,7 +184,7 @@ body {
     display:flex;
     justify-content:center;
     align-items:center;
-    margin:20px 0 0 20px;
+    
   
     
    
@@ -196,7 +193,7 @@ body {
 .container5 {
     position:absolute;
     transform:translate(-50%, -50%);
-    top:8%;
+    top:12%;
     left:50%;
 }
 
