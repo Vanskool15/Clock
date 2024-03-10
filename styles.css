@@ -78,15 +78,16 @@ body {
 
 .title {
     color: #0077b6;
-    font-size: fit-content;
+    font-size: 6vw;
     font-family: Orbitron;
     letter-spacing: 5px;
     white-space: nowrap;
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: 0 0 8px black;
+    
  
 
 
