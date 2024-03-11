@@ -49,7 +49,7 @@ date = date.toString().padStart(2, '0 ');
 document.getElementById('month').innerHTML =  month ;
 document.getElementById('date').innerHTML = date ;
 document.getElementById('year').innerHTML = year;
-document.getElementById('day').innerHTML = day;
+document.getElementById('day').innerHTML = day + "," ;
 
 
 }

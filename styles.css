@@ -3,18 +3,22 @@
     src: url(digital-7.ttf);
 }
 
-
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
 body {
 
-    
+
     background-image: url(image/nasa.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     overflow: hidden;
-    
+
 
 
 
@@ -22,7 +26,6 @@ body {
 
 
 }
-
 
 
 
@@ -32,12 +35,14 @@ body {
 .container {
 
 
-    width: 400px;
-    height: 120px;
+    width: 300px;
+    height: 180px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
+  
 
 
 
@@ -45,173 +50,140 @@ body {
 
 }
 
+
+
+
 .clock {
+    width:100%;
+    height:100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding:30px;
+   
 
 
 
 }
+
 
 
 
 .clock span {
-    font-size:50px;
+    font-size: 50px;
+    width:110px;
     color: white;
     letter-spacing: 5px;
     font-family: clockFont;
-    font-weight:bold;
-    margin:4px;
-    transition:.5s;
-    text-shadow: 0 0 10px #DB9B59;
-    margin-top:40px;
+    font-weight: bold;
+    margin: 4px;
+    transition: .5s;
+    text-shadow: 0 0 4px #DB9B59;
+    margin-top: 40px;
+  
+    position:relative;
+    text-align:center;
+
+    
+
+    
    
+
+
+
+}
+
+.clock span::after {
+   
+    font-size: 10px;
+    position:absolute;
+    bottom: -20px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+#hrs::after {
+    content:"HOURS";
+    font-family:Orbitron;
+    letter-spacing:0;
     
 }
+
+#mnts::after {
+    content:"MINS";
+    font-family:Orbitron;
+}
+
+#scnds::after {
+    content:"SEC";
+    font-family:Orbitron;
+}
+
 
 
 .clock span:hover {
-    color:#f0d5b9;
-    cursor:pointer;
-    
-    
+    color: #f0d5b9;
+    cursor: pointer;
+
+
 }
 
+.container2 {
 
-
-.date-month-year {
-    display:flex;
-    justify-content:center;
-}
-
-
-
-
-.title {
-    color: #0077b6;
-    font-size: 6vw;
-    font-family: Orbitron;
-    letter-spacing: 5px;
-    white-space: nowrap;
     position: absolute;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: 0 0 8px black;
+    text-align: center;
+    text-wrap: nowrap;
     
-    
- 
+}
 
-
-
-
-
+h1 {
+    color: white;
+    font-size:6vw;
+    font-family:Orbitron;
+    text-shadow: 0 0 4px #DB9B59;   
 }
 
 
-#month,
+
+
 #date,
+#month,
 #year {
-    color: #0077b6;
-    font-size: 30px;
-    font-family: clockFont;
+    color: white;
+    font-size:20px;
     font-weight:bold;
-    text-shadow: 0 0 4px black;
-    margin-right: 8px;
-    letter-spacing:4px;
-
-
-
-
+    text-shadow: 0 0 4px #DB9B59;
 }
 
-#month, #year {
-    margin-left: 15px;
-
-}
-
-
-
-
-
-
-#day {
-
-    font-size: 30px;
-    color: #0077b6;
-    text-shadow: 0 0 10px black;
-    font-weight:bold;
-    letter-spacing: 20px;
-    font-family: Orbitron;
-    
-    
-    
-    
-    
-   
-
-
-
-}
-
-
-.container2 {
-    position:absolute;
-    top:80%;
-    left:50%;
-    transform:translate(-50%, -50%);
-}
-
-
-.container3 {
-
-    position: absolute;
-    bottom: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-}
-
-
-.container4 {
-    position:absolute;
-    transform:translate(-50%, -50%);
-    top:12%;
-    left:50%;
-}
 
 
 
 
 #am-pm {
-    margin-left: 20px;
+    font-size:20px;
+}
+
+#day {
+    color:white;
+    font-size:25px;
+    text-shadow: 0 0 4px #DB9B59;
+    font-weight:bold;
     
 }
 
 
 
-.logo {
-    
-    width:80px;
-    height:80px;
-   
+.container3 {
+    position:absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%);
+
 }
 
-
-.logo-container {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    
-  
-    
-   
+.day-month {
+    position:relative;
 }
-
-
-
-
-
 
