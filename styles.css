@@ -109,7 +109,7 @@ body {
     color: #0077b6;
     font-size: 30px;
     font-family: clockFont;
-    font-weight: bold;
+    font-weight:bold;
     text-shadow: 0 0 4px black;
     margin-right: 8px;
     letter-spacing:4px;
@@ -118,14 +118,12 @@ body {
 
 }
 
-#month {
+#month, #year {
     margin-left: 15px;
 
 }
 
-#year {
-    margin-left: 15px;
-}
+
 
 .container3 {
 
@@ -152,7 +150,7 @@ body {
     font-size: 30px;
     color: #0077b6;
     text-shadow: 0 0 10px black;
-    font-weight:800;
+    font-weight:bold;
     letter-spacing: 20px;
     font-family: Orbitron;
     
