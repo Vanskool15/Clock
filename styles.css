@@ -61,17 +61,18 @@ body {
     color: white;
     letter-spacing: 5px;
     font-family: clockFont;
-    text-shadow: 0 0 10px #DB9B59;
     font-weight:bold;
     margin:4px;
-    transition:3s;
-
+    transition:.5s;
+    text-shadow: 0 0 10px #DB9B59;
 }
 
 
 .clock span:hover {
-    color:#0077b6;
+    color:#f0d5b9;
     cursor:pointer;
+    
+    
 }
 
 
