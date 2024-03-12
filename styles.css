@@ -50,12 +50,15 @@ body {
 
 #new-york, #tokyo-jap, #shanghai-china, #sydney-Aus, #berlin-ger, #los-angeles, #saudi-arabia, #oslo-norway{
     color:white;
+    font-family:clockFont;
    
 }
 
 
 .newyork, .tokyojap, .shanghai, .Sydney, .berlin, .losangeles, .Saudi, .Oslo  {
     color:white;
+    font-family:Arial,san-serif;
+  
 }
 
 .newyork-container, .tokyojap-container, .shanghai-container, .sydney-container{
@@ -63,6 +66,7 @@ body {
     font-size:3vw;
     font-weight:bold;
     text-shadow: 0 0 4px #DB9B59;
+    
   
 
 
@@ -70,6 +74,21 @@ body {
 
 }
 
+.time-container {
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+   
+    
+}
+
+
+.newyork-container {
+  
+    border-radius:10px;
+
+}
 
 
     
@@ -79,6 +98,8 @@ body {
     flex-direction:column;
     justify-content:flex-end;
     align-items:center;
+    border-radius:10px;
+    
 }
 
 .los-container, .saudi-container, .Oslo-container {
@@ -88,6 +109,7 @@ body {
 .main-container {
     position:absolute;
     right:1%;
+    top:40px;
     font-size:3vw;
     font-weight:bold;
     text-shadow: 0 0 4px #DB9B59;
@@ -95,10 +117,6 @@ body {
 }
 
 
-.title {
-    position:relative;
-    
-}
 
 
 
@@ -180,23 +198,8 @@ body {
 }
 
 
-.title {
-    color: white;
-    font-size:6vw;
-    font-family:Orbitron;
-    text-shadow: 0 0 4px #DB9B59; 
-    text-align:center; 
-    
-    
-     
-}
 
-.title-container {
-    position:fixed;
-    top:20%;
-    left:50%;
-    transform: translate(-50%,-50%);
-}
+
 
 
 
