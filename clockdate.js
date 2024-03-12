@@ -84,11 +84,22 @@ function updateShanghaiChinaTime() {
   setTimeout(updateShanghaiChinaTime,1000);
 }
 
+function updateSydneyTime() {
+  let date = new Date ();
+  let options = {timeZone: 'Australia/Sydney', hour: 'numeric', minute: 'numeric', second: 'numeric'};
+  let SydneyTime = date.toLocaleString('en-US', options);
+
+  document.getElementById('sydney-Aus').innerHTML = SydneyTime;
+  setTimeout(updateSydneyTime,1000);
+
+}
+
 window.onload = function (){
   startTime();
   updateNewYorkTime();
   updateTokyoTime();
   updateShanghaiChinaTime();
+  updateSydneyTime();
   
   
 

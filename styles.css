@@ -48,7 +48,7 @@ body {
 
 }
 
-#new-york, #tokyo-jap, #shanghai-china {
+#new-york, #tokyo-jap, #shanghai-china, #sydney-Aus {
     color:white;
    
 }
@@ -61,13 +61,15 @@ body {
     display:inline-block;
 }
 
-.newyork, .tokyojap, .shanghai {
+.newyork, .tokyojap, .shanghai, .Sydney {
     color:white;
 }
 
-.newyork-container, .tokyojap-container, .shanghai-container {
+.newyork-container, .tokyojap-container, .shanghai-container, .sydney-container{
     margin: 40px 0 0 10px;
     font-size:2vw;
+    font-weight:bold;
+    text-shadow: 0 0 4px #DB9B59;
 
     
 
