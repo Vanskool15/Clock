@@ -48,7 +48,7 @@ body {
 
 }
 
-#new-york, #tokyo-jap, #shanghai-china, #sydney-Aus {
+#new-york, #tokyo-jap, #shanghai-china, #sydney-Aus, #berlin-ger, #los-angeles, #saudi-arabia, #oslo-norway{
     color:white;
    
 }
@@ -61,7 +61,7 @@ body {
     display:inline-block;
 }
 
-.newyork, .tokyojap, .shanghai, .Sydney {
+.newyork, .tokyojap, .shanghai, .Sydney, .berlin, .losangeles, .Saudi, .Oslo  {
     color:white;
 }
 
@@ -75,6 +75,28 @@ body {
 
 }
 
+
+    
+
+.berlin-container {
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+.los-container, .saudi-container, .Oslo-container {
+    margin-top:40px;
+}
+
+.main-container {
+    position:absolute;
+    right:1%;
+    font-size:2vw;
+    font-weight:bold;
+    text-shadow: 0 0 4px #DB9B59;
+
+}
 
 
 .title {

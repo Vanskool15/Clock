@@ -94,12 +94,55 @@ function updateSydneyTime() {
 
 }
 
+function updateBerlinTime() {
+  let date = new Date();
+  let options = {timeZone: 'Europe/Berlin', hour: 'numeric', minute: 'numeric', second: 'numeric'};
+  let berlinTime = date.toLocaleString('en-US', options);
+
+  document.getElementById('berlin-ger').innerHTML = berlinTime;
+  setTimeout(updateBerlinTime,1000);
+}
+
+function updateLaTime() {
+  let date = new Date();
+  let options ={timeZone: 'America/Los_Angeles', hour: 'numeric', minute: 'numeric', second: 'numeric'};
+  let losangelesTime = date.toLocaleString('en-US', options);
+
+  document.getElementById('los-angeles').innerHTML = losangelesTime;
+  setTimeout(updateLaTime,1000);
+}
+
+function updateRiyadhTime() {
+  let date = new Date();
+  let options = {timeZone: 'Asia/Riyadh', hour: 'numeric', minute: 'numeric', second: 'numeric'};
+  let riyadhTime = date.toLocaleString('en-US', options);
+
+  document.getElementById('saudi-arabia').innerHTML = riyadhTime;
+  setTimeout(updateRiyadhTime,1000);
+}
+
+function updateOsloTime() {
+  let date = new Date();
+  let options = {timeZone: 'Europe/Oslo', hour: 'numeric', minute: 'numeric', second: 'numeric'};
+  let osloTime = date.toLocaleString('en-US', options);
+
+  document.getElementById('oslo-norway').innerHTML = osloTime;
+  setTimeout(updateOsloTime,1000);
+
+}
+
+
+
 window.onload = function (){
   startTime();
   updateNewYorkTime();
   updateTokyoTime();
   updateShanghaiChinaTime();
   updateSydneyTime();
+  updateBerlinTime();
+  updateLaTime();
+  updateRiyadhTime();
+  updateOsloTime();
   
   
 
