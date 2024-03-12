@@ -99,6 +99,7 @@ body {
     justify-content:flex-end;
     align-items:center;
     border-radius:10px;
+    text-align:center;
     
 }
 
@@ -117,8 +118,20 @@ body {
 }
 
 
+.title-container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 
-
+.title {
+    font-size:5vw;
+    text-wrap:nowrap;
+    text-shadow: 0 0 4px #DB9B59;
+    font-weight:bold;
+    font-family:Orbitron;
+    color:white;
+}
 
 
 .clock {
@@ -147,7 +160,7 @@ body {
     transition: .5s;
     text-shadow: 0 0 4px #DB9B59;
     margin-top: 40px;
-  
+
     position:relative;
     text-align:center;
 
@@ -235,7 +248,7 @@ body {
 
 .container3 {
     position:absolute;
-    top:75%;
+    top:150%;
     left:50%;
     transform: translate(-50%);
 
