@@ -55,6 +55,7 @@ body {
 
 #new-york {
     display:inline-block;
+    
 }
 
 #tokyo-jap {
@@ -67,15 +68,20 @@ body {
 
 .newyork-container, .tokyojap-container, .shanghai-container, .sydney-container{
     margin: 40px 0 0 10px;
-    font-size:2vw;
+    font-size:3vw;
     font-weight:bold;
     text-shadow: 0 0 4px #DB9B59;
+  
+
 
     
 
 }
 
-
+.time-background {
+    background:black;
+    width:400px;
+}
     
 
 .berlin-container {
@@ -92,9 +98,10 @@ body {
 .main-container {
     position:absolute;
     right:1%;
-    font-size:2vw;
+    font-size:3vw;
     font-weight:bold;
     text-shadow: 0 0 4px #DB9B59;
+    background:black;
 
 }
 
