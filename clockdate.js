@@ -33,6 +33,8 @@ function startTime() {
   
  
 }
+
+
 //Code to Display Date-Month-Year
 function dateMonth() {
   const d = new Date();
@@ -50,10 +52,44 @@ document.getElementById('month').innerHTML =  month ;
 document.getElementById('date').innerHTML = date ;
 document.getElementById('year').innerHTML = year;
 document.getElementById('day').innerHTML = day + "," ;
-
-
 }
 
 dateMonth();
 
+function updateNewYorkTime() {
+  let date = new Date();
+  let options = {timeZone: 'America/New_York', hour:'numeric', minute:'numeric', second: 'numeric' };
+  let eastCoastTime = date.toLocaleString('en-US', options);
+  
+  document.getElementById('new-york').innerHTML = eastCoastTime;
+  setTimeout(updateNewYorkTime,1000)
+  
+}
 
+function updateTokyoTime() {
+  let date = new Date ();
+  let options = {timeZone: 'Asia/Tokyo', hour:'numeric', minute: 'numeric', second: 'numeric', hour12:true};
+  let tokyoTime = date.toLocaleString('ja-JP', options);
+
+  document.getElementById('tokyo-jap').innerHTML = tokyoTime;
+  setTimeout(updateTokyoTime,1000);
+}
+
+function updateShanghaiChinaTime() {
+  let date = new Date ();
+  let options = {timeZone: 'Asia/Shanghai', hour:'numeric', minute: 'numeric', second: 'numeric'};
+  let shanghaiTime = date.toLocaleString('en-US', options);
+
+  document.getElementById('shanghai-china').innerHTML = shanghaiTime;
+  setTimeout(updateShanghaiChinaTime,1000);
+}
+
+window.onload = function (){
+  startTime();
+  updateNewYorkTime();
+  updateTokyoTime();
+  updateShanghaiChinaTime();
+  
+  
+
+};

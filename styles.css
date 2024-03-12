@@ -30,8 +30,6 @@ body {
 
 
 
-
-
 .container {
 
 
@@ -48,6 +46,38 @@ body {
 
 
 
+}
+
+#new-york, #tokyo-jap, #shanghai-china {
+    color:white;
+   
+}
+
+#new-york {
+    display:inline-block;
+}
+
+#tokyo-jap {
+    display:inline-block;
+}
+
+.newyork, .tokyojap, .shanghai {
+    color:white;
+}
+
+.newyork-container, .tokyojap-container, .shanghai-container {
+    margin: 40px 0 0 10px;
+    font-size:2vw;
+
+    
+
+}
+
+
+
+.title {
+    position:relative;
+    
 }
 
 
@@ -129,24 +159,24 @@ body {
 
 }
 
-.container2 {
 
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    text-wrap: nowrap;
-    
-}
-
-h1 {
+.title {
     color: white;
     font-size:6vw;
     font-family:Orbitron;
-    text-shadow: 0 0 4px #DB9B59;   
+    text-shadow: 0 0 4px #DB9B59; 
+    text-align:center; 
+    
+    
+     
 }
 
+.title-container {
+    position:fixed;
+    top:20%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
 
 
 
