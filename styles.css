@@ -156,13 +156,11 @@ body {
     letter-spacing: 5px;
     font-family: clockFont;
     font-weight: bold;
-    margin: 4px;
     transition: .5s;
     text-shadow: 0 0 4px #DB9B59;
-    margin-top: 40px;
-
     position:relative;
     text-align:center;
+    margin-top:10px;
 
     
 
@@ -186,6 +184,7 @@ body {
     content:"HOURS";
     font-family:Orbitron;
     letter-spacing:0;
+
     
 }
 
