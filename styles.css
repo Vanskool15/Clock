@@ -53,14 +53,6 @@ body {
    
 }
 
-#new-york {
-    display:inline-block;
-    
-}
-
-#tokyo-jap {
-    display:inline-block;
-}
 
 .newyork, .tokyojap, .shanghai, .Sydney, .berlin, .losangeles, .Saudi, .Oslo  {
     color:white;
@@ -78,10 +70,8 @@ body {
 
 }
 
-.time-background {
-    background:black;
-    width:400px;
-}
+
+
     
 
 .berlin-container {
@@ -101,8 +91,7 @@ body {
     font-size:3vw;
     font-weight:bold;
     text-shadow: 0 0 4px #DB9B59;
-    background:black;
-
+   
 }
 
 
