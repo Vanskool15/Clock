@@ -51,6 +51,7 @@ body {
 #new-york, #tokyo-jap, #shanghai-china, #sydney-Aus, #berlin-ger, #los-angeles, #saudi-arabia, #oslo-norway{
     color:white;
     font-family:clockFont;
+    
    
 }
 
@@ -62,7 +63,7 @@ body {
 }
 
 .newyork-container, .tokyojap-container, .shanghai-container, .sydney-container{
-    margin: 40px 0 0 10px;
+    margin: 40px 0 0 1px;
     font-size:3vw;
     font-weight:bold;
     text-shadow: 0 0 4px #DB9B59;
@@ -79,16 +80,12 @@ body {
     flex-direction:column;
     justify-content:flex-start;
     align-items:flex-start;
+    text-align:center;
    
     
 }
 
 
-.newyork-container {
-  
-    border-radius:10px;
-
-}
 
 
     
@@ -98,7 +95,6 @@ body {
     flex-direction:column;
     justify-content:flex-end;
     align-items:center;
-    border-radius:10px;
     text-align:center;
     
 }
