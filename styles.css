@@ -65,7 +65,7 @@ body {
 }
 
 .newyork-container, .tokyojap-container, .shanghai-container, .sydney-container{
-    margin: 30px 0 0 1px;
+    margin: 20px 0 0 1px;
     font-weight:bold;
     text-shadow: 0 0 4px #DB9B59;
    
@@ -100,13 +100,13 @@ body {
 }
 
 .los-container, .saudi-container, .Oslo-container {
-    margin-top:40px;
+    margin-top:20px;
 }
 
 .main-container {
     position:absolute;
     right:1%;
-    top:30px;
+    top:20px;
     font-size:3vw;
     font-weight:bold;
     text-shadow: 0 0 4px #DB9B59;
