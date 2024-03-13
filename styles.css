@@ -64,7 +64,7 @@ body {
 }
 
  .tokyojap-container, .shanghai-container, .sydney-container,.newzealand-container{
-    margin:40px 0 0 4px;
+    margin:42px 0 0 4px;
     font-weight:bold;
     text-shadow: 0 0 4px #DB9B59;
    
@@ -88,7 +88,8 @@ body {
 
 .newyork-container {
     position:absolute;
-    top:3%;
+    left:1%;
+    top:2%;
     font-weight:bold;
     text-shadow: 0 0 4px #DB9B59;
     background-color:rgba(0, 0,0, .2);
