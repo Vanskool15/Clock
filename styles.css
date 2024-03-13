@@ -29,7 +29,6 @@ body {
 
 
 
-
 .container {
 
 
@@ -89,7 +88,7 @@ body {
 
 .newyork-container {
     position:absolute;
-    top:2%;
+    top:3%;
     font-weight:bold;
     text-shadow: 0 0 4px #DB9B59;
    
@@ -108,7 +107,7 @@ body {
 }
 
 .los-container, .saudi-container, .Oslo-container {
-    margin-top:40px;
+    margin-top:45px;
 }
 
 .main-container {
@@ -253,8 +252,9 @@ body {
 
 
 .container3 {
+  
     position:absolute;
-    top:150%;
+    top:185%;
     left:50%;
     transform: translate(-50%);
     
@@ -263,12 +263,13 @@ body {
 
 
 .clocks {
-    width:140px;
-    height:140px;
+    width:150px;
+    height:150px;
     background-color:rgba(0, 0,0, .2);
     color:white;
     border-radius:50%;
-    border:2px solid white;
+    font-family: Arial,sans-serif;
+    font-weight:bold;
     position:relative;
     margin: 10px auto 0 auto;
     text-shadow: 0 0 4px #DB9B59;
@@ -319,6 +320,7 @@ body {
     content:"";
     position:absolute;
     background-color:white;
+    border:2px solid black;
     z-index: 11;
     width:15px;
     height:15px;
@@ -331,6 +333,7 @@ body {
     width:2px;
     height:40%;
     background-color:red;
+    
 }
 
 
@@ -339,6 +342,7 @@ body {
     height:40%;
     background-color:white;
     border:2px solid black;
+ 
 }
 
 
@@ -347,4 +351,5 @@ body {
     height:35%;
     background-color:white;
     border:2px solid black;
+  
 }
