@@ -92,7 +92,7 @@ body {
     font-weight:bold;
     text-shadow: 0 0 4px #DB9B59;
     background-color:rgba(0, 0,0, .2);
-    padding: 0 5px 0 5px;
+    padding: 5px 5px 5px 5px;
    
 
     
@@ -106,7 +106,7 @@ body {
     align-items:center;
     text-align:center;
     background: rgba(0, 0, 0, .1);
-    padding:0 5px 0 5px;
+    padding:5px 10px 5px 10px;
 
     
 }
