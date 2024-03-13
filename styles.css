@@ -91,6 +91,8 @@ body {
     top:3%;
     font-weight:bold;
     text-shadow: 0 0 4px #DB9B59;
+    background-color:rgba(0, 0,0, .2);
+    padding: 0 5px 0 5px;
    
 
     
@@ -103,6 +105,8 @@ body {
     justify-content:flex-end;
     align-items:center;
     text-align:center;
+    background: rgba(0, 0, 0, .1);
+    padding:0 5px 0 5px;
 
     
 }
@@ -264,9 +268,9 @@ body {
 
 
 .clocks {
-    width:150px;
-    height:150px;
-    background-color:rgba(0, 0,0, .2);
+    width:130px;
+    height:130px;
+    background-color:rgba(0, 0,0, .8);
     color:white;
     border-radius:50%;
     font-family: Arial,sans-serif;
@@ -274,6 +278,7 @@ body {
     position:relative;
     margin: 10px auto 0 auto;
     text-shadow: 0 0 4px #DB9B59;
+    border: 2px solid white;
     
 }
 
