@@ -47,7 +47,7 @@ body {
 
 }
 
-#new-york, #tokyo-jap, #shanghai-china, #sydney-Aus, #berlin-ger, #los-angeles, #saudi-arabia, #oslo-norway{
+#new-york, #tokyo-jap, #shanghai-china, #sydney-Aus, #berlin-ger, #los-angeles, #saudi-arabia, #oslo-norway, #new-zeal, #ottawa-can{
     color:white;
     font-family:clockFont;
     font-size:3vw;
@@ -56,14 +56,14 @@ body {
 }
 
 
-.newyork, .tokyojap, .shanghai, .Sydney, .berlin, .losangeles, .Saudi, .Oslo  {
+.newyork, .tokyojap, .shanghai, .Sydney, .berlin, .losangeles, .Saudi, .Oslo, .newZealand, .ottawa  {
     color:white;
     font-family:Arial,san-serif;
     font-size:3vw;
   
 }
 
- .tokyojap-container, .shanghai-container, .sydney-container{
+ .tokyojap-container, .shanghai-container, .sydney-container,.newzealand-container{
     margin:40px 0 0 4px;
     font-weight:bold;
     text-shadow: 0 0 4px #DB9B59;
@@ -103,10 +103,11 @@ body {
     justify-content:flex-end;
     align-items:center;
     text-align:center;
+
     
 }
 
-.los-container, .saudi-container, .Oslo-container {
+.los-container, .saudi-container, .Oslo-container, .Ottawa-container {
     margin-top:45px;
 }
 

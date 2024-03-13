@@ -130,6 +130,26 @@ function updateOsloTime() {
   setTimeout(updateOsloTime,1000);
 
 }
+function updateNewZealandTime() {
+  let date = new Date();
+  let options = {timeZone: 'Pacific/Auckland', hour:'numeric', minute: 'numeric', second: 'numeric', weekday: 'long'};
+  
+  let newZealandTime = date.toLocaleString('en-NZ',options);
+  
+  document.getElementById('new-zeal').innerHTML = newZealandTime;
+  setTimeout(updateNewZealandTime,1000);
+}
+
+function updateOttawaTime() {
+  let date = new Date();
+  let options = {timeZone: 'America/Toronto', hour:'numeric', minute: 'numeric', second: 'numeric', weekday: 'long'};
+
+  let ottawaTime = date.toLocaleString('en-US', options);
+
+  document.getElementById('ottawa-can').innerHTML = ottawaTime;
+  setTimeout(updateOttawaTime,1000);
+}
+
 
 
 
@@ -143,6 +163,8 @@ window.onload = function (){
   updateLaTime();
   updateRiyadhTime();
   updateOsloTime();
+  updateNewZealandTime();
+  updateOttawaTime();
   
   
 
