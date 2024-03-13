@@ -64,8 +64,8 @@ body {
   
 }
 
-.newyork-container, .tokyojap-container, .shanghai-container, .sydney-container{
-    margin: 20px 0 0 1px;
+ .tokyojap-container, .shanghai-container, .sydney-container{
+    margin:40px 0 0 4px;
     font-weight:bold;
     text-shadow: 0 0 4px #DB9B59;
    
@@ -87,7 +87,15 @@ body {
 
 
 
+.newyork-container {
+    position:absolute;
+    top:2%;
+    font-weight:bold;
+    text-shadow: 0 0 4px #DB9B59;
+   
 
+    
+}
     
 
 .berlin-container {
@@ -136,6 +144,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    
    
    
 
@@ -253,3 +262,89 @@ body {
 }
 
 
+.clocks {
+    width:140px;
+    height:140px;
+    background-color:rgba(0, 0,0, .2);
+    color:white;
+    border-radius:50%;
+    border:2px solid white;
+    position:relative;
+    margin: 10px auto 0 auto;
+    text-shadow: 0 0 4px #DB9B59;
+    
+}
+
+
+.clocks .number {
+    --rotation:0;
+    position:absolute;
+    width:100%;
+    height:100%;
+    text-align:center;
+    transform: rotate(var(--rotation));
+
+}
+
+
+.clocks .number1 {--rotation:30deg;}
+.clocks .number2 {--rotation:60deg;}
+.clocks .number3 {--rotation:90deg;}
+.clocks .number4 {--rotation:120deg;}
+.clocks .number5{--rotation:150deg;}
+.clocks .number6 {--rotation:180deg;}
+.clocks .number7 {--rotation:210deg;}
+.clocks .number8 {--rotation:240deg;}
+.clocks .number9 {--rotation:270deg;}
+.clocks .number10 {--rotation:300deg;}
+.clocks .number11 {--rotation:330deg;}
+
+
+
+.clocks .hand {
+    --rotation:0;
+    position:absolute;
+    bottom:50%;
+    left:50%;
+   
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 10;
+    transform-origin:bottom;
+    background-color:white;
+    transform:translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+}
+
+.clocks::after {
+    content:"";
+    position:absolute;
+    background-color:white;
+    z-index: 11;
+    width:15px;
+    height:15px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    border-radius: 50%;
+}
+.clocks .hand.second {
+    width:2px;
+    height:40%;
+    background-color:red;
+}
+
+
+.clocks .hand.minute{
+    width:7px;
+    height:40%;
+    background-color:white;
+    border:2px solid black;
+}
+
+
+.clocks .hand.hour {
+    width:8px;
+    height:35%;
+    background-color:white;
+    border:2px solid black;
+}
