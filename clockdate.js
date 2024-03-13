@@ -58,9 +58,9 @@ dateMonth();
 
 function updateNewYorkTime() {
   let date = new Date();
-  let options = {timeZone: 'America/New_York', hour:'numeric', minute:'numeric', second: 'numeric' };
+  let options = {timeZone: 'America/New_York', hour:'numeric', minute:'numeric', second: 'numeric', weekday: 'long' };
   let eastCoastTime = date.toLocaleString('en-US', options);
-  
+ 
   document.getElementById('new-york').innerHTML = eastCoastTime;
   setTimeout(updateNewYorkTime,1000)
   
@@ -68,7 +68,7 @@ function updateNewYorkTime() {
 
 function updateTokyoTime() {
   let date = new Date ();
-  let options = {timeZone: 'Asia/Tokyo', hour:'numeric', minute: 'numeric', second: 'numeric', hour12:true};
+  let options = {timeZone: 'Asia/Tokyo', hour:'numeric', minute: 'numeric', second: 'numeric', weekday: 'long', hour12:true};
   let tokyoTime = date.toLocaleString('ja-JP', options);
 
   document.getElementById('tokyo-jap').innerHTML = tokyoTime;
@@ -77,7 +77,7 @@ function updateTokyoTime() {
 
 function updateShanghaiChinaTime() {
   let date = new Date ();
-  let options = {timeZone: 'Asia/Shanghai', hour:'numeric', minute: 'numeric', second: 'numeric'};
+  let options = {timeZone: 'Asia/Shanghai', hour:'numeric', minute: 'numeric', second: 'numeric', weekday: 'long'};
   let shanghaiTime = date.toLocaleString('en-US', options);
 
   document.getElementById('shanghai-china').innerHTML = shanghaiTime;
@@ -86,7 +86,7 @@ function updateShanghaiChinaTime() {
 
 function updateSydneyTime() {
   let date = new Date ();
-  let options = {timeZone: 'Australia/Sydney', hour: 'numeric', minute: 'numeric', second: 'numeric'};
+  let options = {timeZone: 'Australia/Sydney', hour: 'numeric', minute: 'numeric', second: 'numeric', weekday:'long'};
   let SydneyTime = date.toLocaleString('en-US', options);
 
   document.getElementById('sydney-Aus').innerHTML = SydneyTime;
@@ -96,7 +96,7 @@ function updateSydneyTime() {
 
 function updateBerlinTime() {
   let date = new Date();
-  let options = {timeZone: 'Europe/Berlin', hour: 'numeric', minute: 'numeric', second: 'numeric'};
+  let options = {timeZone: 'Europe/Berlin', hour: 'numeric', minute: 'numeric', second: 'numeric', weekday: 'long'};
   let berlinTime = date.toLocaleString('en-US', options);
 
   document.getElementById('berlin-ger').innerHTML = berlinTime;
@@ -105,7 +105,7 @@ function updateBerlinTime() {
 
 function updateLaTime() {
   let date = new Date();
-  let options ={timeZone: 'America/Los_Angeles', hour: 'numeric', minute: 'numeric', second: 'numeric'};
+  let options ={timeZone: 'America/Los_Angeles', hour: 'numeric', minute: 'numeric', second: 'numeric', weekday: 'long'};
   let losangelesTime = date.toLocaleString('en-US', options);
 
   document.getElementById('los-angeles').innerHTML = losangelesTime;
@@ -114,7 +114,7 @@ function updateLaTime() {
 
 function updateRiyadhTime() {
   let date = new Date();
-  let options = {timeZone: 'Asia/Riyadh', hour: 'numeric', minute: 'numeric', second: 'numeric'};
+  let options = {timeZone: 'Asia/Riyadh', hour: 'numeric', minute: 'numeric', second: 'numeric',weekday:'long'};
   let riyadhTime = date.toLocaleString('en-US', options);
 
   document.getElementById('saudi-arabia').innerHTML = riyadhTime;
@@ -123,7 +123,7 @@ function updateRiyadhTime() {
 
 function updateOsloTime() {
   let date = new Date();
-  let options = {timeZone: 'Europe/Oslo', hour: 'numeric', minute: 'numeric', second: 'numeric'};
+  let options = {timeZone: 'Europe/Oslo', hour: 'numeric', minute: 'numeric', second: 'numeric', weekday:'long'};
   let osloTime = date.toLocaleString('en-US', options);
 
   document.getElementById('oslo-norway').innerHTML = osloTime;
