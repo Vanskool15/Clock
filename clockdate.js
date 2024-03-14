@@ -55,7 +55,7 @@ function dateMonth() {
 
 function updateNewYorkTime() {
   let date = new Date();
-  let options = {timeZone: 'America/New_York', hour:'numeric', minute:'numeric', second: 'numeric', weekday: 'long' };
+  let options = {timeZone: 'America/New_York', hour:'2-digit', minute:'numeric', second: 'numeric', weekday: 'long' };
   let option = {timeZone:'America/New_York',month: '2-digit', day: '2-digit', year: 'numeric'};
   let dateFormated = date.toLocaleDateString('en-US',option);
   let eastCoastTime = date.toLocaleString('en-US', options);
@@ -69,7 +69,7 @@ function updateNewYorkTime() {
 function updateTokyoTime() {
   let date = new Date ();
 
-  let options = {timeZone: 'Asia/Tokyo', hour:'numeric', minute: 'numeric', second: 'numeric', weekday: 'long', hour12:true};
+  let options = {timeZone: 'Asia/Tokyo', hour:'2-digit', minute: 'numeric', second: 'numeric', weekday: 'long', hour12:true};
   let option = {timeZone:'Asia/Tokyo', month: '2-digit', day: '2-digit', year: 'numeric'};
 
   
@@ -84,7 +84,7 @@ function updateTokyoTime() {
 
 function updateShanghaiChinaTime() {
   let date = new Date ();
-  let options = {timeZone: 'Asia/Shanghai', hour:'numeric', minute: 'numeric', second: 'numeric', weekday: 'long'};
+  let options = {timeZone: 'Asia/Shanghai', hour:'2-digit', minute: 'numeric', second: 'numeric', weekday: 'long'};
   let option = {timeZone:'Asia/Shanghai', month: '2-digit', day: '2-digit', year: 'numeric'};
   let dateFormated = date.toLocaleDateString('en-US', option);
   let shanghaiTime = date.toLocaleString('en-US', options);
@@ -96,7 +96,7 @@ function updateShanghaiChinaTime() {
 
 function updateSydneyTime() {
   let date = new Date ();
-  let options = {timeZone: 'Australia/Sydney', hour: 'numeric', minute: 'numeric', second: 'numeric', weekday:'long'};
+  let options = {timeZone: 'Australia/Sydney', hour: '2-digit', minute: 'numeric', second: 'numeric', weekday:'long'};
   let option = {timeZone:'Australia/Sydney', month: '2-digit', day: '2-digit', year: 'numeric'};
   let dateFormated = date.toLocaleDateString('en-US', option);
   let SydneyTime = date.toLocaleString('en-US', options);
@@ -109,7 +109,7 @@ function updateSydneyTime() {
 
 function updateBerlinTime() {
   let date = new Date();
-  let options = {timeZone: 'Europe/Berlin', hour: 'numeric', minute: 'numeric', second: 'numeric', weekday: 'long'};
+  let options = {timeZone: 'Europe/Berlin', hour: '2-digit', minute: 'numeric', second: 'numeric', weekday: 'long'};
   let option = {timeZone:'Europe/Berlin', month: '2-digit', day: '2-digit', year: 'numeric'};
   let dateFormated = date.toLocaleDateString('en-US', option);
   let berlinTime = date.toLocaleString('en-US', options);
@@ -121,7 +121,7 @@ function updateBerlinTime() {
 
 function updateLaTime() {
   let date = new Date();
-  let options ={timeZone: 'America/Los_Angeles', hour: 'numeric', minute: 'numeric', second: 'numeric', weekday: 'long'};
+  let options ={timeZone: 'America/Los_Angeles', hour: '2-digit', minute: 'numeric', second: 'numeric', weekday: 'long'};
   let option = {timeZone:'America/Los_Angeles', month: '2-digit', day: '2-digit', year: 'numeric'};
   let dateFormated = date.toLocaleDateString('en-US', option);
   let losangelesTime = date.toLocaleString('en-US', options);
@@ -133,7 +133,7 @@ function updateLaTime() {
 
 function updateRiyadhTime() {
   let date = new Date();
-  let options = {timeZone: 'Asia/Riyadh', hour: 'numeric', minute: 'numeric', second: 'numeric',weekday:'long'};
+  let options = {timeZone: 'Asia/Riyadh', hour: '2-digit', minute: 'numeric', second: 'numeric',weekday:'long'};
   let option = {timeZone:'Asia/Riyadh', month: '2-digit', day: '2-digit', year: 'numeric'};
   let dateFormated = date.toLocaleDateString('en-US', option);
   let riyadhTime = date.toLocaleString('en-US', options);
@@ -145,7 +145,7 @@ function updateRiyadhTime() {
 
 function updateOsloTime() {
   let date = new Date();
-  let options = {timeZone: 'Europe/Oslo', hour: 'numeric', minute: 'numeric', second: 'numeric', weekday:'long'};
+  let options = {timeZone: 'Europe/Oslo', hour: '2-digit', minute: 'numeric', second: 'numeric', weekday:'long'};
   let option = {timeZone:'Europe/Oslo', month: '2-digit', day: '2-digit', year: 'numeric'};
   let dateFormated = date.toLocaleDateString('en-US', option);
   let osloTime = date.toLocaleString('en-US', options);
@@ -157,7 +157,7 @@ function updateOsloTime() {
 }
 function updateNewZealandTime() {
   let date = new Date();
-  let options = {timeZone: 'Pacific/Auckland', hour:'numeric', minute: 'numeric', second: 'numeric', weekday: 'long'};
+  let options = {timeZone: 'Pacific/Auckland', hour:'2-digit', minute: 'numeric', second: 'numeric', weekday: 'long'};
   let option = {timeZone:'Pacific/Auckland', month: '2-digit', day: '2-digit', year: 'numeric'};
   let dateFormated = date.toLocaleDateString('en-US', option);
   
@@ -170,7 +170,7 @@ function updateNewZealandTime() {
 
 function updateOttawaTime() {
   let date = new Date();
-  let options = {timeZone: 'America/Toronto', hour:'numeric', minute: 'numeric', second: 'numeric', weekday: 'long'};
+  let options = {timeZone: 'America/Toronto', hour:'2-digit', minute: 'numeric', second: 'numeric', weekday: 'long'};
   let option = {timeZone:'America/Toronto', month: '2-digit', day: '2-digit', year: 'numeric'};
   let dateFormated = date.toLocaleDateString('en-US', option);
 

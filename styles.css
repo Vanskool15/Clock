@@ -98,11 +98,12 @@ body {
 
 .newyork-container {
     position:absolute;
-    left:1%;
+    left:0;
     top:2%;
     font-weight:bold;
     text-shadow: 0 0 4px #DB9B59;
     padding: 5px 5px 5px 5px;
+ 
  
  
    
@@ -113,11 +114,12 @@ body {
 
 .berlin-container {
     position:absolute;
-    right:1%;
+    right:0;
     top:2%;
     font-weight:bold;
     text-shadow: 0 0 4px #DB9B59;
     padding:5px 5px 5px 5px;
+   
 }
     
 
