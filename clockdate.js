@@ -51,7 +51,7 @@ function dateMonth() {
 
 }
 
-dateMonth();
+
 
 function updateNewYorkTime() {
   let date = new Date();
@@ -192,7 +192,7 @@ window.onload = function (){
   updateOsloTime();
   updateNewZealandTime();
   updateOttawaTime();
-  
+  dateMonth();
   
 
 };
