@@ -237,18 +237,20 @@ body {
 
 #manila-date {
     color:white;
-    font-family:clockFont;
+    font-family:Arial,sans-serif;
     font-size:20px;
     font-weight:bold;
-    margin-top:20px;
     text-shadow: 0 0 4px #DB9B59 ;
     letter-spacing:2px;
+  
 }
 
 
 
 #weekday {
     font-size:20px;
+    font-family:Arial, sans-serif;
+    font-weight:bold;
     
 
 }
@@ -260,23 +262,15 @@ body {
 
 
 
-
 .container3 {
-  
     position:absolute;
-    top:185%;
+    top:115%;
     left:50%;
-    transform: translate(-50%);
+    transform: translate(-50%, -50%);
     
 
 }
 
-.outer-cont {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    
-}
 
 
 .clocks {
