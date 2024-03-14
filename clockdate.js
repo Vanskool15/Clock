@@ -38,20 +38,17 @@ function startTime() {
 //Code to Display Date-Month-Year
 function dateMonth() {
   const d = new Date();
-  let year = d.getFullYear();
-  let month = d.getMonth() + 1;
-  let date = d.getDate();
-  let day = weekDay [d.getDay()];
+  let day = weekDay[d.getDay()];
+ let options ={timeZone:'Asia/Manila', month: 'numeric', day: 'numeric', year: 'numeric'};
 
-//Convert  date & month to string
-month = month.toString().padStart(2, '0 ');
-date = date.toString().padStart(2, '0 ');
+ let maniladate = d.toLocaleDateString('en-PH', options);
+
+ document.getElementById('weekday').innerHTML = day;
+ document.getElementById('manila-date').innerHTML = maniladate;
+ 
 
 
-document.getElementById('month').innerHTML =  month ;
-document.getElementById('date').innerHTML = date ;
-document.getElementById('year').innerHTML = year;
-document.getElementById('day').innerHTML = day  ;
+
 }
 
 dateMonth();
