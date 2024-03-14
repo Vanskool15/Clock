@@ -373,11 +373,6 @@ body {
   
 }
 
-h1 {
-    color:white;
-    font-size:20px;
-}
-
 #weather {
     color:white;
     font-size:12px;
@@ -391,6 +386,6 @@ h1 {
     text-align: center;
     font-weight:bold;
     font-family:Arial,sans-serif;
-    margin:90px;
+    margin-top:10px;
     text-shadow: 0 0 4px #DB9B59 ;
 }
