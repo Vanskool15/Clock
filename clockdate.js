@@ -39,7 +39,7 @@ function startTime() {
 function dateMonth() {
   const d = new Date();
   let day = weekDay[d.getDay()];
- let options ={timeZone:'Asia/Manila', month: 'numeric', day: 'numeric', year: 'numeric'};
+ let options ={timeZone:'Asia/Manila', month: '2-digit', day: '2-digit', year: 'numeric'};
 
  let maniladate = d.toLocaleDateString('en-PH', options);
 
@@ -68,10 +68,14 @@ function updateNewYorkTime() {
 
 function updateTokyoTime() {
   let date = new Date ();
+
   let options = {timeZone: 'Asia/Tokyo', hour:'numeric', minute: 'numeric', second: 'numeric', weekday: 'long', hour12:true};
   let option = {timeZone:'Asia/Tokyo', month: '2-digit', day: '2-digit', year: 'numeric'};
+
+  
+
   let dateFormated = date.toLocaleDateString('en-US', option);
-  let tokyoTime = date.toLocaleString('ja-JP', options);
+  let tokyoTime = date.toLocaleString('ja-JP', options );
   
   document.getElementById('tokyo-date').innerHTML = dateFormated;
   document.getElementById('tokyo-jap').innerHTML = tokyoTime;
