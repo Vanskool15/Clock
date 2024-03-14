@@ -65,8 +65,9 @@ body {
 }
 
  .tokyojap-container, .shanghai-container, .sydney-container,.newzealand-container{
-    margin:40px 0 0 4px;
+    margin:20px 0 0 4px;
     font-weight:bold;
+   
   
    
 
@@ -121,7 +122,7 @@ body {
     
 
 .los-container, .saudi-container, .oslo-container, .ottawa-container  {
-    margin:40px 4px 0 0px;
+    margin:20px 4px 0 0px;
     font-weight:bold;
 }
 
@@ -268,6 +269,13 @@ body {
 
 }
 
+.outer-cont {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
 
 .clocks {
     width:160px;
@@ -362,3 +370,4 @@ body {
     border:2px solid black;
   
 }
+
