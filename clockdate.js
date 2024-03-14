@@ -59,18 +59,24 @@ dateMonth();
 function updateNewYorkTime() {
   let date = new Date();
   let options = {timeZone: 'America/New_York', hour:'numeric', minute:'numeric', second: 'numeric', weekday: 'long' };
+  let option = {timeZone:'America/New_York',month: '2-digit', day: '2-digit', year: 'numeric'};
+  let dateFormated = date.toLocaleDateString('en-US',option);
   let eastCoastTime = date.toLocaleString('en-US', options);
  
+  document.getElementById('new-york-date').innerHTML = dateFormated;
   document.getElementById('new-york').innerHTML = eastCoastTime;
-  setTimeout(updateNewYorkTime,1000)
+  setTimeout(updateNewYorkTime,1000);
   
 }
 
 function updateTokyoTime() {
   let date = new Date ();
   let options = {timeZone: 'Asia/Tokyo', hour:'numeric', minute: 'numeric', second: 'numeric', weekday: 'long', hour12:true};
+  let option = {timeZone:'Asia/Tokyo', month: '2-digit', day: '2-digit', year: 'numeric'};
+  let dateFormated = date.toLocaleDateString('en-US', option);
   let tokyoTime = date.toLocaleString('ja-JP', options);
-
+  
+  document.getElementById('tokyo-date').innerHTML = dateFormated;
   document.getElementById('tokyo-jap').innerHTML = tokyoTime;
   setTimeout(updateTokyoTime,1000);
 }
@@ -78,8 +84,11 @@ function updateTokyoTime() {
 function updateShanghaiChinaTime() {
   let date = new Date ();
   let options = {timeZone: 'Asia/Shanghai', hour:'numeric', minute: 'numeric', second: 'numeric', weekday: 'long'};
+  let option = {timeZone:'Asia/Shanghai', month: '2-digit', day: '2-digit', year: 'numeric'};
+  let dateFormated = date.toLocaleDateString('en-US', option);
   let shanghaiTime = date.toLocaleString('en-US', options);
 
+  document.getElementById('shanghai-date').innerHTML = dateFormated;
   document.getElementById('shanghai-china').innerHTML = shanghaiTime;
   setTimeout(updateShanghaiChinaTime,1000);
 }
@@ -87,8 +96,11 @@ function updateShanghaiChinaTime() {
 function updateSydneyTime() {
   let date = new Date ();
   let options = {timeZone: 'Australia/Sydney', hour: 'numeric', minute: 'numeric', second: 'numeric', weekday:'long'};
+  let option = {timeZone:'Australia/Sydney', month: '2-digit', day: '2-digit', year: 'numeric'};
+  let dateFormated = date.toLocaleDateString('en-US', option);
   let SydneyTime = date.toLocaleString('en-US', options);
 
+  document.getElementById('sydney-date').innerHTML = dateFormated;
   document.getElementById('sydney-Aus').innerHTML = SydneyTime;
   setTimeout(updateSydneyTime,1000);
 
@@ -97,8 +109,11 @@ function updateSydneyTime() {
 function updateBerlinTime() {
   let date = new Date();
   let options = {timeZone: 'Europe/Berlin', hour: 'numeric', minute: 'numeric', second: 'numeric', weekday: 'long'};
+  let option = {timeZone:'Europe/Berlin', month: '2-digit', day: '2-digit', year: 'numeric'};
+  let dateFormated = date.toLocaleDateString('en-US', option);
   let berlinTime = date.toLocaleString('en-US', options);
-
+  
+  document.getElementById('berlin-date').innerHTML = dateFormated;
   document.getElementById('berlin-ger').innerHTML = berlinTime;
   setTimeout(updateBerlinTime,1000);
 }
@@ -106,8 +121,11 @@ function updateBerlinTime() {
 function updateLaTime() {
   let date = new Date();
   let options ={timeZone: 'America/Los_Angeles', hour: 'numeric', minute: 'numeric', second: 'numeric', weekday: 'long'};
+  let option = {timeZone:'America/Los_Angeles', month: '2-digit', day: '2-digit', year: 'numeric'};
+  let dateFormated = date.toLocaleDateString('en-US', option);
   let losangelesTime = date.toLocaleString('en-US', options);
 
+  document.getElementById('La-date').innerHTML = dateFormated;
   document.getElementById('los-angeles').innerHTML = losangelesTime;
   setTimeout(updateLaTime,1000);
 }
@@ -115,8 +133,11 @@ function updateLaTime() {
 function updateRiyadhTime() {
   let date = new Date();
   let options = {timeZone: 'Asia/Riyadh', hour: 'numeric', minute: 'numeric', second: 'numeric',weekday:'long'};
+  let option = {timeZone:'Asia/Riyadh', month: '2-digit', day: '2-digit', year: 'numeric'};
+  let dateFormated = date.toLocaleDateString('en-US', option);
   let riyadhTime = date.toLocaleString('en-US', options);
-
+  
+  document.getElementById('Saudi-date').innerHTML =dateFormated;
   document.getElementById('saudi-arabia').innerHTML = riyadhTime;
   setTimeout(updateRiyadhTime,1000);
 }
@@ -124,8 +145,11 @@ function updateRiyadhTime() {
 function updateOsloTime() {
   let date = new Date();
   let options = {timeZone: 'Europe/Oslo', hour: 'numeric', minute: 'numeric', second: 'numeric', weekday:'long'};
+  let option = {timeZone:'Europe/Oslo', month: '2-digit', day: '2-digit', year: 'numeric'};
+  let dateFormated = date.toLocaleDateString('en-US', option);
   let osloTime = date.toLocaleString('en-US', options);
-
+  
+  document.getElementById('Oslo-date').innerHTML = dateFormated;
   document.getElementById('oslo-norway').innerHTML = osloTime;
   setTimeout(updateOsloTime,1000);
 
@@ -133,9 +157,12 @@ function updateOsloTime() {
 function updateNewZealandTime() {
   let date = new Date();
   let options = {timeZone: 'Pacific/Auckland', hour:'numeric', minute: 'numeric', second: 'numeric', weekday: 'long'};
+  let option = {timeZone:'Pacific/Auckland', month: '2-digit', day: '2-digit', year: 'numeric'};
+  let dateFormated = date.toLocaleDateString('en-US', option);
   
   let newZealandTime = date.toLocaleString('en-NZ',options);
   
+  document.getElementById('newzeal-date').innerHTML = dateFormated;
   document.getElementById('new-zeal').innerHTML = newZealandTime;
   setTimeout(updateNewZealandTime,1000);
 }
@@ -143,9 +170,12 @@ function updateNewZealandTime() {
 function updateOttawaTime() {
   let date = new Date();
   let options = {timeZone: 'America/Toronto', hour:'numeric', minute: 'numeric', second: 'numeric', weekday: 'long'};
+  let option = {timeZone:'America/Toronto', month: '2-digit', day: '2-digit', year: 'numeric'};
+  let dateFormated = date.toLocaleDateString('en-US', option);
 
   let ottawaTime = date.toLocaleString('en-US', options);
 
+  document.getElementById('Ottawa-date').innerHTML = dateFormated;
   document.getElementById('ottawa-can').innerHTML = ottawaTime;
   setTimeout(updateOttawaTime,1000);
 }
