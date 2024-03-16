@@ -8,7 +8,7 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}
         const weatherDiv = document.getElementById('weather');
         const cityName =data.name;
         const temperature =Math.round(data.main.temp);
-        const description =Math.round(data.main.humidity);
+        const description =data.main.humidity;
         // Display weather information
         weatherDiv.innerHTML = `
             <h3>${cityName}</h3>
