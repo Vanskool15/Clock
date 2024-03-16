@@ -25,6 +25,7 @@ body {
 
 
 
+
 }
 
 
@@ -48,7 +49,7 @@ body {
 }
 
 #new-york, #tokyo-jap, #shanghai-china, #sydney-Aus, #berlin-ger, #los-angeles, #saudi-arabia, #oslo-norway, #new-zeal, #ottawa-can{
-    color:white;
+    color:rgb(245, 235, 235);
     font-family:clockFont;
     font-size:2vw;
     
@@ -58,7 +59,7 @@ body {
 
 
 .newyork, .tokyojap, .shanghai, .Sydney, .berlin, .losangeles, .Saudi, .Oslo, .newZealand, .ottawa  {
-    color:white;
+    color:rgb(245, 235, 235);
     font-family:Arial,san-serif;
     font-size:3vw;
   
@@ -89,7 +90,7 @@ body {
 }
 
 #new-york-date, #tokyo-date, #shanghai-date, #sydney-date, #newzeal-date, #berlin-date, #La-date, #Saudi-date, #Oslo-date, #Ottawa-date{
-    color:white;
+    color:rgb(245, 235, 235);
     font-size:2vw;
     font-family:Arial, sans-serif;
 }
@@ -105,7 +106,6 @@ body {
     padding: 5px 5px 5px 5px;
  
  
- 
    
    
 
@@ -114,11 +114,13 @@ body {
 
 .berlin-container {
     position:absolute;
-    right:0;
+    right:3%;
     top:2%;
     font-weight:bold;
     text-shadow: 0 0 4px #DB9B59;
     padding:5px 5px 5px 5px;
+
+
    
 }
     
@@ -144,14 +146,6 @@ body {
     align-items:center;
 }
 
-.title {
-    font-size:5vw;
-    text-wrap:nowrap;
-    text-shadow: 0 0 4px #DB9B59;
-    font-weight:bold;
-    font-family:Orbitron;
-    color:white;
-}
 
 
 .clock {
@@ -236,7 +230,7 @@ body {
 
 
 #manila-date {
-    color:white;
+    color:rgb(245, 235, 235);
     font-family:Arial,sans-serif;
     font-size:20px;
     font-weight:bold;
@@ -276,8 +270,8 @@ body {
 .clocks {
     width:160px;
     height:160px;
-    background-color:rgba(0, 0,0, .2);
-    color:white;
+    background-color:rgba(0, 0,0, .3);
+    color:rgb(245, 235, 235);
     border-radius:50%;
     font-family: Arial,sans-serif;
     font-weight:bold;
@@ -325,7 +319,7 @@ body {
     border-top-right-radius: 10px;
     z-index: 10;
     transform-origin:bottom;
-    background-color:white;
+    color:rgb(245, 235, 235);
     transform:translateX(-50%) rotate(calc(var(--rotation) * 1deg));
 }
 
@@ -370,6 +364,8 @@ body {
 #weather {
     color:white;
     font-size:12px;
+    padding:20px;
+    height:120px;
 }
 
 .weather-container {
@@ -382,4 +378,8 @@ body {
     font-family:Arial,sans-serif;
     margin-top:10px;
     text-shadow: 0 0 4px #DB9B59 ;
+
+    
+
 }
+

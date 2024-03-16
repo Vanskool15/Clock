@@ -8,14 +8,15 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}
         const weatherDiv = document.getElementById('weather');
         const cityName =data.name;
         const temperature =Math.round(data.main.temp);
-        const description =Math.round(data.wind.speed);
-        const icon = `http://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+        const description =Math.round(data.main.humidity);
+     
+        console.log(data);
         // Display weather information
         weatherDiv.innerHTML = `
             <h3>${cityName}</h3>
             <p>Temperature: ${temperature}°C</p>
-            <p>Wind Speed: ${description} km/h</p>
-            <img src="${icon}" alt="Weather Icon">
+            <p>Humidity: ${description}%</p>
+          
         `;
     })
     .catch(error => {
