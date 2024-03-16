@@ -98,7 +98,7 @@ function updateNewYorkTime() {
 function updateTokyoTime() {
   let date = new Date ();
 
-  let options = {timeZone: 'Asia/Tokyo', hour:'2-digit', minute: 'numeric', second: 'numeric', weekday: 'long', hour12:true};
+  let options ={timeZone: 'Asia/Tokyo', hour12:'true', hour:'numeric', minute: 'numeric', second: 'numeric', weekday: 'long' };
   let option = {timeZone:'Asia/Tokyo', month: '2-digit', day: '2-digit', year: 'numeric'};
 
   
