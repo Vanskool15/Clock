@@ -104,6 +104,8 @@ body {
     font-weight:bold;
     text-shadow: 0 0 4px #DB9B59;
     padding: 5px 5px 5px 5px;
+    background:rgba(0, 0, 0, 0.8);
+    border-radius:5px;
  
  
    
@@ -114,11 +116,14 @@ body {
 
 .berlin-container {
     position:absolute;
-    right:3%;
+    right:0%;
     top:2%;
     font-weight:bold;
     text-shadow: 0 0 4px #DB9B59;
     padding:5px 5px 5px 5px;
+    background:rgba(0, 0, 0, 0.8);
+    border-radius:5px;
+ 
 
 
    
@@ -168,7 +173,7 @@ body {
 .clock span {
     font-size: 55px;
     width:110px;
-    color: white;
+    color:rgb(245, 235, 235);
     letter-spacing: 5px;
     font-family: clockFont;
     font-weight: bold;
@@ -258,7 +263,7 @@ body {
 
 .container3 {
     position:absolute;
-    top:115%;
+    top:102%;
     left:50%;
     transform: translate(-50%, -50%);
     
@@ -268,8 +273,8 @@ body {
 
 
 .clocks {
-    width:160px;
-    height:160px;
+    width:130px;
+    height:130px;
     background-color:rgba(0, 0,0, .3);
     color:rgb(245, 235, 235);
     border-radius:50%;
@@ -314,7 +319,6 @@ body {
     position:absolute;
     bottom:50%;
     left:50%;
-   
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     z-index: 10;
